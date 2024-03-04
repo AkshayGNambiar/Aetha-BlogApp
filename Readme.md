@@ -89,12 +89,12 @@ Start the server:
 
 API Endpoints
 Authentication
- 1.POST /api/auth/register: Register a new user.
- 2.POST /api/auth/login: Log in a user and receive a JWT.
- 3.POST /api/auth/logout: Log out a user.
+ 1.POST /api/auth/register: Register a new user.<br>
+ 2.POST /api/auth/login: Log in a user and receive a JWT.<br>
+ 3.POST /api/auth/logout: Log out a user.<br>
 Blog Posts
- 1.GET /api/posts: Fetch all blog posts.
- 2.POST /api/posts: Create a new blog post (authenticated users only).
- 3.GET /api/posts/:postId: Fetch a specific blog post.
- 4.PUT /api/posts/:postId: Update a specific blog post (authenticated users only).
- 5.DELETE /api/posts/:postId: Delete a specific blog post (authenticated users only).
+ 1.GET /api/posts: Fetch all blog posts.<br>
+ 2.POST /api/posts: Create a new blog post (authenticated users only).<br>
+ 3.GET /api/posts/:postId: Fetch a specific blog post.<br>
+ 4.PUT /api/posts/:postId: Update a specific blog post (authenticated users only).<br>
+ 5.DELETE /api/posts/:postId: Delete a specific blog post (authenticated users only).<br>
